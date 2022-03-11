@@ -51,7 +51,7 @@ create table if not exists employees (
     rank_doc_basis text not null,
     staff_member_id integer not null,
     staff_member_doc_basis text not null,
-    staff_member_id_fact integer not null,
+    staff_member_id_fact integer not null, -- чем занимается фактически (прим. ИДПС -> инспектор ИАЗ)
     adress text not null,
     telephone text not null,
     dismissal bool not null,
